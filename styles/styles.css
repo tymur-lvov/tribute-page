@@ -89,4 +89,10 @@ time {
 #tribute-link {
   color: #333;
   font-weight: bold;
+  transition: color 300ms ease;
+}
+
+#tribute-link:hover,
+#tribute-link:focus {
+  color: #32409a;
 }
